@@ -1,0 +1,120 @@
+body{
+    font-family: "Comic Sans MS";
+}
+.main-info-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.main-info-photo{
+    width: 30%;
+}
+.photo{
+    width: 50%;
+    min-width: 200px;
+}
+.main-info{
+    padding-right: 5%;
+    width: 50%;
+    font-size: clamp(20px, 2vw, 22px);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+.contact-info{
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.contact-info-item{
+    font-size: clamp(20px, 2vw, 22px);
+    text-decoration: none;
+    color: #DB7093;
+}
+.contact-info-item:hover{
+    font-weight: bolder;
+}
+.contact-info-item-border{
+    border-right: black 2px solid;
+    padding: 0px 10px;
+}
+.expectation-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 2%;
+    background-color:#FFEEEC;
+    align-items: center;
+    justify-content: center;
+}
+.expectation-title{
+    font-size: 24px;
+    color: #DB7093;
+    width: 20%;
+}
+.expectation-info{
+    font-size: clamp(20px, 2vw, 22px);
+    width: 50%;
+}
+li{
+    margin-bottom: 10px;
+    list-style-type: circle;
+}
+.mySlides {display: none}
+/* Slideshow container */
+.slideshow-container {
+    width: 50%;
+    position: relative;
+    margin: auto;
+    border: 1px solid black;
+}
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit seethrough */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+/* Caption text */
+.text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.block{
+    visibility: visible;
+}
+.projects-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.project-title{
+    text-align: center;
+    color: #DB7093;
+}

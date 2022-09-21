@@ -15,6 +15,7 @@ body{
 .photo{
     width: 50%;
     min-width: 200px;
+    border-radius: 20px;
 }
 .main-info{
     padding-right: 5%;
@@ -23,6 +24,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: end;
+    text-align: right;
 
 }
 .contact-info{
@@ -43,12 +45,13 @@ body{
     border-right: black 2px solid;
     padding: 0px 10px;
 }
+.info-wrapper{
+    background-color:#FFEEEC;
+}
 .expectation-wrapper{
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding-left: 2%;
-    background-color:#FFEEEC;
     align-items: center;
     justify-content: center;
 }
@@ -68,7 +71,7 @@ li{
 .mySlides {display: none}
 /* Slideshow container */
 .slideshow-container {
-    width: 50%;
+    width: 70%;
     position: relative;
     margin: auto;
     border: 1px solid black;
@@ -97,16 +100,6 @@ li{
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
-/* Caption text */
-.text {
-    color: black;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
 .block{
     visibility: visible;
 }
@@ -118,3 +111,4 @@ li{
     text-align: center;
     color: #DB7093;
 }
+
